@@ -6,13 +6,13 @@
 /*   By: josmigue <josmigue@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 12:39:21 by josmigue          #+#    #+#             */
-/*   Updated: 2022/09/08 13:09:10 by josmigue         ###   ########.fr       */
+/*   Updated: 2022/09/09 12:38:06 by josmigue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
 
-void ft_putchar(char c)
+void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
