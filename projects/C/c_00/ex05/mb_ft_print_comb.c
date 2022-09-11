@@ -6,7 +6,7 @@
 /*   By: josmigue <josmigue@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/11 17:35:45 by josmigue          #+#    #+#             */
-/*   Updated: 2022/09/11 18:17:55 by josmigue         ###   ########.fr       */
+/*   Updated: 2022/09/11 18:15:18 by josmigue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,8 +49,8 @@ void	write_line(char a, char b, char c)
 	}
 }
 
-/*int	main(void)
+int	main(void)
 {
 	ft_print_comb();
 	return (0);
-}*/
+}
