@@ -6,7 +6,7 @@
 /*   By: jabecass <jabecass@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/10 12:19:23 by jabecass          #+#    #+#             */
-/*   Updated: 2022/09/12 16:53:11 by josmigue         ###   ########.fr       */
+/*   Updated: 2022/09/13 11:32:24 by josmigue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,8 @@ void	ft_putnbr(int nb)
 	write(1, &nb, 1);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	ft_putnbr(-2147483648);
 	return (0);
-}
+}*/

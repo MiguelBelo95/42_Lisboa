@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: josmigue <josmigue@student.42.fr>          +#+  +:+       +#+        */
+/*   By: josmigue <josmigue@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/09 12:03:35 by jabecass          #+#    #+#             */
-/*   Updated: 2022/09/12 19:20:00 by josmigue         ###   ########.fr       */
+/*   Created: 2022/09/13 11:29:10 by josmigue          #+#    #+#             */
+/*   Updated: 2022/09/13 19:16:37 by josmigue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,9 +38,9 @@ void	ft_print_comb2(void)
 
 void	ft_int_to_str(int a, int b)
 {
-	ft_putchar((48 + a / 10), (48 + a % 10));
+	ft_putchar(('0' + a / 10), ('0' + a % 10));
 	write(1, " ", 1);
-	ft_putchar((48 + b / 10), (48 + b % 10));
+	ft_putchar(('0' + b / 10), ('0' + b % 10));
 	if (a != 98)
 	{
 		write(1, ", ", 2);
