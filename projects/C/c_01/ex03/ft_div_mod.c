@@ -1,35 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: josmigue <josmigue@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/15 11:19:13 by josmigue          #+#    #+#             */
-/*   Updated: 2022/09/15 11:26:28 by josmigue         ###   ########.fr       */
+/*   Created: 2022/09/15 11:56:00 by josmigue          #+#    #+#             */
+/*   Updated: 2022/09/15 12:01:36 by josmigue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-void	ft_swap(int *a, int *b)
+void	ft_div_mod(int a, int b, int *div, int *mod)
 {
-	*a = *a + *b;
-	*b = *a - *b;
-	*a = *a - *b;
+	if (b != 0)
+	{
+		*div = a / b;
+		*mod = a % b;
+	}
 }
 
 /*int main(void)
 {
-	int *a, *b, num_a, num_b;
-    num_a = 10;
-    num_b = 20;
-    a = &num_a;
-    b = &num_b;
+    int a, b, d, m;
+    int *div, *mod;
+    a = 578;
+    b = 100;
+    d = 0;
+    m = 0;
+    div = &d;
+	mod = &m;
 
-
-    printf("value a: %d    value b: %d\n", *a, *b);
-    ft_swap(a, b);
-    printf("value a: %d    value b: %d", *a, *b);
+    printf("value of div: %d  value of mod: %d\n", *div, *mod);
+    ft_div_mod(a, b, div, mod);
+    printf("value of div: %d  value of mod: %d\n", *div, *mod);
     return(0);
 }*/
