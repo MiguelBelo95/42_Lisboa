@@ -56,7 +56,7 @@ void	lowcase(char *str, int i)
 
 int main(void)
 {
-    char str1[] = "alo maluco 42beleza!";
+    char str1[] = "salut, comment tu vas ? 42mots quarante-deux; cinquante+et+un";
 	char str2[] = "ALO MALUCO 42BELEZA!";
 	char str3[] = "alo+ma|uco a2beleza!";
 	char str4[] = "ALO+MALUCO*a2BELEZA!";
