@@ -6,7 +6,7 @@
 /*   By: josmigue <josmigue@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/18 15:25:13 by josmigue          #+#    #+#             */
-/*   Updated: 2022/09/18 15:31:59 by josmigue         ###   ########.fr       */
+/*   Updated: 2022/09/20 20:44:09 by josmigue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	while (i < n)
 	{
 		dest[i] = '\0';
+		i++;
 	}
 	return (dest);
 }
