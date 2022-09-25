@@ -6,7 +6,7 @@
 /*   By: josmigue <josmigue@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/24 15:37:54 by josmigue          #+#    #+#             */
-/*   Updated: 2022/09/25 14:40:36 by josmigue         ###   ########.fr       */
+/*   Updated: 2022/09/25 15:00:14 by josmigue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_ultimate_range(int **range, int min, int max)
 	int	i;
 
 	i = 0;
-	if ( min >= max)
+	if (min >= max)
 	{
 		*range = NULL;
 		return (0);
@@ -28,6 +28,6 @@ int	ft_ultimate_range(int **range, int min, int max)
 		range[0][i++] = min++;
 	}
 	if (!(*range))
-		return( -1);
+		return (-1);
 	return (i);
 }
