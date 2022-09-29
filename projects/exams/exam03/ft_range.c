@@ -12,13 +12,19 @@ int	*ft_range(int start, int end)
 {
 	int *ptr;
 	int i;
+	int mult = 1;
+	int size;
 
 	i = 0;
-	ptr = (int *)malloc(sizeof(int) * (end - start));
-   	while (start < end)
+	size = ft_abs(end - start) + 1;
+	ptr = (int *)malloc(sizeof(int) * size);
+	
+	if ( start > end)
+		mult = -1;
+
+	while (i < size)
 	{
-		ptr[i] = start;
-		start++;
+		ptr[i] = start + (i * mult);
 		i++;
 	}
 	return (ptr);
@@ -29,7 +35,7 @@ int        main(void)
     int *tab;
     int i = 0;
     int start = 0;
-    int end = 0 ;
+    int end = 16 ;
     int size = ft_abs(end - start) + 1;
 
     tab = ft_range(start, end);
