@@ -15,6 +15,7 @@
 ### **Piscine tips**
 
 <br>
+<br>
 
 <p> After finishing shell00, focus on advancing C projects. All exams evaluate your C knowledge. Finish shell01 later in the course. <p>
 
@@ -42,6 +43,7 @@
 ### **Exam** 💯
 
 <br>
+<br>
 
 - login with exam / exam
 - open terminal and type examshell
@@ -63,6 +65,7 @@
 ### **42 header**
 
 <br>
+<br>
 
 Follow these guidelines to add your [42 Header](https://github.com/42Paris/42header) on your user.
 
@@ -71,6 +74,7 @@ Follow these guidelines to add your [42 Header](https://github.com/42Paris/42hea
 
 ### **Vim settings**
 
+<br>
 <br>
 
 - syntax on
