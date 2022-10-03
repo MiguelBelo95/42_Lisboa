@@ -48,13 +48,12 @@ Harvard short tutorial videos from [CS50](https://www.youtube.com/playlist?list=
 
 
 <br>
-<br>
-
 
 ### **42 header** 📑
 
 Follow these guidelines to add your [42 Header](https://github.com/42Paris/42header) on your user.
 
+<br>
 
 ### **Vim settings**  🔧 
 
