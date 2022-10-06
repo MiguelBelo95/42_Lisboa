@@ -36,16 +36,18 @@ struct s_stock_str *ft_strs_to_tab(int ac, char **av)
 	int i;
 	t_stock_str *p_strs;
 
-	p_strs = (t_stock_str *)malloc(sizeof(t_stock_str) * (ac));
+	p_strs = (t_stock_str *)malloc(sizeof(t_stock_str) * (ac + 1));
 
 	i = 0;
 	while (i < ac)
 	{
-		printf("entrou no while %d vezes.\n", i);
 		p_strs[i].size = ft_str_len(av[i]);
 		p_strs[i].str = av[i];
 		p_strs[i].copy = ft_strdup(av[i]);
 		i++;
 	}
+	p_strs[i].size = 0;
+	p_strs[i].str = 0;
+	p_strs[i].copy = 0;
 	return (p_strs);
 }
